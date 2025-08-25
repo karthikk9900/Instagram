@@ -52,6 +52,7 @@
     .insta p{
         font-size: 24px;
         margin-left: 24px;
+        cursor: pointer;
     }
 
     .menu{
@@ -69,10 +70,21 @@
         flex-direction: row;
         justify-content: flex-start;
         align-items: center;
-        gap: 11px;
-        margin: 2vh;
-        margin: 20px 0px 32px 20px;
+        gap: 13px;
+        /* margin: 2vh; */
+        margin: 10px 0px 0px 20px;
+        cursor: pointer;
+        height: 7vh;
+        width: 90%;
+        box-sizing: border-box;
+        /* padding: 10px 10px 0px 0px; */
+    }
 
+    .logo:hover{
+     background-color: rgba(255, 255, 255, 0.1);
+      border-color: #999;   
+      border-radius: 5px;
+      transition: 0.25s;
     }
 
     .logo i{
@@ -80,7 +92,7 @@
     }
 
     .logo p{
-        font-size: 17px;
+        font-size: 16px;
     }
 
     .logo img{
@@ -93,6 +105,7 @@
     .wieght{
         font-weight: normal;
     }
+
 
 
     .right{
@@ -118,6 +131,7 @@
         flex-direction: row;
         justify-content: flex-start;
         align-items: center;
+        /* cursor: pointer; */
     }
     
 
@@ -143,6 +157,7 @@
         background-color: rgba(218, 79, 29, 0.854);
         border-radius: 50%;
         margin: 0px 14px 0px 0px ;
+        cursor: pointer;
     }
 
     .suggest{
@@ -186,11 +201,21 @@
     .about p{
         color: #A8A8A8;
         font-weight: 100;
-
+        cursor: pointer;
     }
 
     .name p{
         font-size: 14px;
+    }
+
+    .name h5{
+        cursor: pointer;
+    }
+
+    .seeall{
+        cursor: pointer;
+        font-size: 12px;
+        font-weight: 500;
     }
 
     .middle{
@@ -223,6 +248,7 @@
         justify-content: center;
         align-items: center;
         margin: 20px 16px 10px 15px;
+        cursor: pointer;
     }
 
     .storyprofile{
@@ -247,11 +273,12 @@ background: conic-gradient(
         height: auto;
         width: 37.5vw;
         /* background-color: rgb(23, 149, 178); */
-        margin: 20px 0px 0px 80px;
+        margin: 20px 0px 0px 4vw;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
+        /* gap: 40px; */
     }
 
     .post{
@@ -266,11 +293,15 @@ background: conic-gradient(
         justify-content: flex-start;
         align-items: center;
     }
+    .post-profile-username i{
+        cursor: pointer;
+    }
 
     .post-profile{
         height: 38px;
         width: 38px;
         margin: 0px 10px 10px 0px;
+        cursor: pointer;
     }
 
     .post-profile img{
@@ -289,10 +320,15 @@ background: conic-gradient(
 
     .post-username h5{
         display: inline;
+        cursor: pointer;
     }
+    /* .post-username i{
+        cursor: pointer;
+    } */
     .post-username p{
         display: inline;
         margin: 10px;
+        cursor: pointer;
     }
 
     .likes-comments{
@@ -358,7 +394,7 @@ background: conic-gradient(
 
     .feed hr{
         margin: 20px;
-        border: 1px solid;
+        border: 2px solid;
         border-color: aqua;
     }
 
@@ -376,6 +412,11 @@ background: conic-gradient(
         align-items: center;
         gap: 10px;
         z-index: 1000;
+        cursor: pointer;
+    }
+
+    .message-fix:hover{
+        background-color: #383838;
     }
 
     .message-fix i{
@@ -600,7 +641,7 @@ background: conic-gradient(
             
             <div class="suggest">
                 <p class="suggestion">Suggested for you</p>
-                <p class="seeall">See all</p>
+                <p class="seeall">See All</p>
             </div>
             <div class="s-account">
                 <div class="user">
